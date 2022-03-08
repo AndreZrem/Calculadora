@@ -3,8 +3,7 @@
 *
 {
     margin: 0;
-    padding: 0;
-    
+    padding: 0;  
 }
 
 .fundo
@@ -53,4 +52,27 @@
     color: black;
     text-align: right;
     padding: 5px;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+::-webkit-scrollbar
+{
+    height: 4px;
+}
+/* trilha (Barra de progresso) da barra de rolagem */
+
+::-webkit-scrollbar-track
+{
+    background-color: rgb(161, 161, 161);
+}
+/* Alça de rolagem arrastavel*/
+
+::-webkit-scrollbar-thumb
+{
+    background-color: crimson;
+}
+::-webkit-scrollbar-thumb:hover
+{
+    background-color: aquamarine;
 }
